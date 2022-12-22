@@ -1,5 +1,5 @@
 #! /bin/bash
-D=date +%M
+D=`date +%M`
 if [ -e fichier_$D.txt ]
 then
 
